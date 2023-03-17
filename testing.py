@@ -12,6 +12,6 @@
 # result = prefix
 # print(str(result))
 
-s = ["John","Job","Jonny"]
-for i in range(len(s)):
-    print(i)
+number = "-123"
+
+print(number[1::1])
