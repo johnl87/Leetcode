@@ -12,6 +12,9 @@
 # result = prefix
 # print(str(result))
 
-number = "-123"
+# number = "-123"
 
-print(number[1::1])
+# print(number[1::1])
+
+nums = [1,2,3,None,None]
+print(len(nums))
