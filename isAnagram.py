@@ -17,3 +17,8 @@ class Solution:
             if sCount[c] != tCount.get(c,0 ):
                 return False
         return True
+    
+    def isAnagram(self, s: str, t: str) -> bool:
+        # code sorts strings in alphabetical order and compares
+        return sorted(s) == sorted(t)
+    
